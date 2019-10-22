@@ -1,12 +1,16 @@
 //Wide screens
 @include mediaXL{
-
+    .projects {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 
 //Desktops & laptops
 @include mediaLg{
-    
+    .projects {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 
@@ -43,7 +47,7 @@
         transform: translate3d(100%,0,0);
 
         .portrait{
-            background: url(../img/portrait_small.jpg);
+            background: url(../img/profile_small.jpg);
             width: 150px;
             height: 150px;
         }
@@ -58,6 +62,10 @@
         'job3';
         grid-template-columns: 1fr;
     }
+
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 
@@ -67,5 +75,9 @@
 @include mediaSm{
     main#home h1{
         margin-top: 10vh;
+    }
+
+    .projects {
+        grid-template-columns: 1fr;
     }
 }
