@@ -88,20 +88,40 @@ main{
 }
 
 .bio {
-    grid-area: bio;
-    font-size: 1.5rem;
+    // grid-area: bio;
+    font-size: 1rem;
+    text-align: justify;
 }
 
 .job-1 {
     grid-area: job1;
+    li{
+        font-size: .9rem;
+        text-align: justify;
+    }
 }
-
 .job-2 {
     grid-area: job2;
+    li{
+        font-size: .9rem;
+        text-align: justify;
+    }
 }
 
-.job-3 {
+.job-3 {    
     grid-area: job3;
+    li{
+        font-size: .9rem;
+        text-align: justify;
+    }
+}
+
+.job-4 {    
+    grid-area: job4;
+    li{
+        font-size: .9rem;
+        text-align: justify;
+    }
 }
 
 .job{
