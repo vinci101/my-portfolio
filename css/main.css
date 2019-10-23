@@ -165,17 +165,32 @@ main {
   border: #8ea4ec 3px solid; }
 
 .bio {
-  grid-area: bio;
-  font-size: 1.5rem; }
+  font-size: 1rem;
+  text-align: justify; }
 
 .job-1 {
   grid-area: job1; }
+  .job-1 li {
+    font-size: .9rem;
+    text-align: justify; }
 
 .job-2 {
   grid-area: job2; }
+  .job-2 li {
+    font-size: .9rem;
+    text-align: justify; }
 
 .job-3 {
   grid-area: job3; }
+  .job-3 li {
+    font-size: .9rem;
+    text-align: justify; }
+
+.job-4 {
+  grid-area: job4; }
+  .job-4 li {
+    font-size: .9rem;
+    text-align: justify; }
 
 .job {
   background: #3b3838;
